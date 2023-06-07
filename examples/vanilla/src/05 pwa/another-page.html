@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>View Transitions API Demo</title>
+
+    <meta name="view-transition" content="same-origin" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="/05%20pwa/manifest/manifest.webmanifest" rel="manifest" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/05%20pwa/style.css" />
+  </head>
+  <body>
+    <main class="m-8">
+      <h1
+        id="title"
+        class="my-8 text-center text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600"
+      >
+        PWA Document Transitions (Behind a flag)
+      </h1>
+
+      <section class="m-8 flex gap-8 justify-center items-center">
+        <a href="/05%20pwa/" class="underline">Goto back</a>
+      </section>
+
+      <section id="content-section" class="m-8 grid justify-center">
+        <img
+          id="transition-me"
+          class="rounded-md max-h-[400px]"
+          src="https://images.unsplash.com/photo-1503525537183-c84679c9147f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5ncnklMjBlbW9qaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+        />
+      </section>
+    </main>
+  </body>
+</html>

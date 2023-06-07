@@ -1,0 +1,12 @@
+{
+  "name": "view-transitions-api-demo-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "clean": "pnpm run -r clean"
+  },
+  "keywords": [],
+  "author": "flexdinesh@gmail.com",
+  "license": "MIT"
+}
